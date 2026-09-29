@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <ThemeInit />
         <AuthProvider>
-          <ToastProvider />
+          <ToastProvider />         
           {children}
         </AuthProvider>
       </body>
