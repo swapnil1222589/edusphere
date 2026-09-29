@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'EduSphere – Smart College Management Platform',
   description: 'EduSphere is an all-in-one digital operating system for colleges. Manage academics, attendance, placements, and campus life from a single platform.',
   keywords: ['college management', 'student portal', 'attendance', 'placement', 'edtech'],
-  authors: [{ name: 'EduSphere Team' }],
+  authors: [{ name: 'EduSphere Team' }],      
   openGraph: {
     title: 'EduSphere – Smart College Management Platform',
     description: 'The modern way to manage college life.',
