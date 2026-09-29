@@ -6,7 +6,7 @@ import {
   Layers, ArrowRight, CalendarCheck, ClipboardList, BookOpen, Briefcase,
   Users, Bell, BarChart3, ShoppingBag, Search, Ticket, Star, ChevronDown,
   CheckCircle, Zap, Shield, Globe, Award, TrendingUp
-} from 'lucide-react';
+} from 'lucide-react';    
 
 // ─── Animated counter ─────────────────────────────────────────────────────────
 function Counter({ value, suffix = '' }: { value: number; suffix?: string }) {
