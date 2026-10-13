@@ -38,7 +38,7 @@ EduSphere is a production-quality, fully responsive web application that serves 
 - 🔔 **Notifications** – Real-time notification center with type-specific icons
 - ⚙️ **Settings** – Profile, password, notification preferences, appearance, privacy
 - 🌙 **Dark/Light Mode** – Persistent theme switching
-- 📱 **Fully Responsive** – Works beautifully on all screen sizes
+- 📱 **Fully Responsive** – Works beautifully on all screen sizes    
 
 ## 🚀 Quick Start
 
