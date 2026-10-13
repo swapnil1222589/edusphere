@@ -73,7 +73,7 @@ Open [http://localhost:3000](http://localhost:3000) to see the app.
 | Faculty | faculty@edusphere.edu | any |
 | Admin | admin@edusphere.edu | any |
 
-> **Note:** Authentication uses localStorage-based mock auth for demo. No Supabase setup required.
+> **Note:** Authentication uses localStorage-based mock auth for demo. No Supabase setup required.  
 
 ## 🏗️ Project Structure
 
