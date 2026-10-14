@@ -5,6 +5,6 @@
   "framework": "nextjs",
   "outputDirectory": ".next",
   "env": {
-    "NEXT_PUBLIC_APP_NAME": "EduSphere"
+    "NEXT_PUBLIC_APP_NAME": "EduSphere"  
   }
 }
