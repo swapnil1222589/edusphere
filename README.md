@@ -2,7 +2,7 @@
 
 **The Smart College Management Platform**
 
-EduSphere is a production-quality, fully responsive web application that serves as an all-in-one digital operating system for colleges. Built with Next.js 14, TypeScript, Tailwind CSS, Framer Motion, and Recharts.    
+EduSphere is a production-quality, fully responsive web application that serves as an all-in-one digital operating system for colleges. Built with Next.js 14, TypeScript, Tailwind CSS, Framer Motion, and Recharts.      
 
 ## ✨ Features
 
@@ -23,7 +23,7 @@ EduSphere is a production-quality, fully responsive web application that serves 
 - ✅ **Attendance Management** – Mark attendance for entire classes with one click
 - 📚 **Notes Upload** – Upload and manage study materials with tags
 - 📝 **Assignments** – Create assignments, grade submissions, add feedback
-- 📈 **Analytics** – Low attendance alerts, top performers, subject performance
+- 📈 **Analytics** – Low attendance alerts, top performers, subject performance  
 
 ### Admin Portal
 - 📊 **Analytics Dashboard** – Student growth, placement stats, event participation
