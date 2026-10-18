@@ -100,9 +100,9 @@ edusphere/
 └── README.md
 ```
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stacks
 
-| Category | Technology |
+| Category | Technology | 
 |----------|-----------|
 | Framework | Next.js 14 (App Router) |
 | Language | TypeScript |
