@@ -31,7 +31,7 @@ EduSphere is a production-quality, fully responsive web application that serves 
 - 👥 **Faculty Management** – Faculty cards with subjects and designations
 - 🏛️ **Departments** – Color-coded department cards with HOD and stats
 - 📅 **Timetable** – College-wide schedule management
-- 🎫 **Events** – Create and manage all campus events
+- 🎫 **Event** – Create and manage all campus events
 - 📄 **Reports** – Generate and export institutional reports
 
 ### General
