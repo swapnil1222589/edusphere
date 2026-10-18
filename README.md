@@ -141,7 +141,7 @@ npm run build
 - **Gradient text** and accent colors (Indigo/Purple/Cyan)
 - **Smooth animations** via Framer Motion
 - **Custom scrollbar** styling
-- **Responsive** via CSS media queries + Tailwind
+- **Responsive** via CSS media queries + Tailwind css
 
 ## 📄 License
 
