@@ -80,7 +80,7 @@ Open [http://localhost:3000](http://localhost:3000) to see the app.
 ```
 edusphere/
 ├── app/
-│   ├── (auth)/          # Login, Register, Forgot Password
+│   ├── (auth)/          # Login, Register, Forgot Password, new password
 │   ├── (dashboard)/     # All authenticated pages
 │   │   ├── student/     # 10 student modules
 │   │   ├── faculty/     # 5 faculty modules
