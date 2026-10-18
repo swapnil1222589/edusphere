@@ -136,7 +136,7 @@ npm run build
 
 ## 🎨 Design System
 
-- **Dark theme** by default with light mode toggle
+- **Dark theme** by default with light mode toggles
 - **Glassmorphism** cards with `backdrop-filter: blur`
 - **Gradient text** and accent colors (Indigo/Purple/Cyan)
 - **Smooth animations** via Framer Motion
