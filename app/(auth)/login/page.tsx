@@ -135,7 +135,7 @@ export default function LoginPage() {
           <div className="mt-4 p-3 rounded-xl bg-indigo-500/8 border border-indigo-500/15">
             <p className="text-xs font-semibold text-indigo-400 mb-1">Demo Credentials</p>
             <p className="text-xs text-[var(--text-muted)]">Email: {demoCredentials[role]} • Password: any</p>
-          </div>
+          </div> 
 
           <p className="text-center text-xs text-[var(--text-muted)] mt-6">
             Don&apos;t have an account?{' '}
