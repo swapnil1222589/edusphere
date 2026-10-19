@@ -58,7 +58,7 @@ export default function ForgotPasswordPage() {
               <CheckCircle size={32} className="text-emerald-400" />
             </div>
             <h2 className="text-xl font-bold text-[var(--text-primary)] mb-2">Check your inbox!</h2>
-            <p className="text-sm text-[var(--text-secondary)] mb-6">We sent a password reset link to <strong className="text-[var(--text-primary)]">{email}</strong></p>
+            <p className="text-sm text-[var(--text-secondary)] mb-6">We sent a password reset & link to <strong className="text-[var(--text-primary)]">{email}</strong></p>
             <Button variant="secondary" onClick={() => setSent(false)}>Try a different email</Button>
           </motion.div>
         )}
