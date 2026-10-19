@@ -2,7 +2,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Layers, Mail, ArrowRight, CheckCircle } from 'lucide-react';
+// Removed unused ArrowRight import
+import { Layers, Mail, CheckCircle } from 'lucide-react'; 
 import Button from '@/components/ui/Button';
 
 export default function ForgotPasswordPage() {
@@ -13,6 +14,7 @@ export default function ForgotPasswordPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    // TODO: Replace this with your actual API call
     await new Promise(r => setTimeout(r, 1500));
     setSent(true);
     setLoading(false);
@@ -34,8 +36,18 @@ export default function ForgotPasswordPage() {
             <p className="text-sm text-[var(--text-secondary)] mb-6">Enter your college email and we'll send a reset link</p>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label className="text-xs font-medium text-[var(--text-secondary)] block mb-1.5">College Email</label>
-                <input type="email" value={email} onChange={e => setEmail(e.target.value)} required placeholder="you@edusphere.edu" />
+                {/* Added htmlFor for accessibility */}
+                <label htmlFor="email" className="text-xs font-medium text-[var(--text-secondary)] block mb-1.5">College Email</label>
+                {/* Added Tailwind classes for styling and an id to match the label */}
+                <input 
+                  id="email"
+                  type="email" 
+                  value={email} 
+                  onChange={e => setEmail(e.target.value)} 
+                  required 
+                  placeholder="you@edusphere.edu" 
+                  className="w-full px-4 py-2.5 rounded-xl border border-gray-200/20 bg-white/5 text-[var(--text-primary)] placeholder-[var(--text-muted)] focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
+                />
               </div>
               <Button type="submit" loading={loading} className="w-full" icon={<Mail size={16} />}>Send Reset Link</Button>
             </form>
