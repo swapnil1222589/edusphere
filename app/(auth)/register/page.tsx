@@ -19,7 +19,7 @@ export default function RegisterPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (form.password !== form.confirm) { toast.error('Passwords do not match!'); return; }
-    setLoading(true);
+    setLoading(true); 
     await login(form.email, form.password, role);
     toast.success('Account created! Welcome to EduSphere 🎉');
     router.push(`/${role}`);
