@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; 
 import Card, { CardHeader, CardTitle } from '@/components/ui/Card';
 import Badge from '@/components/ui/Badge'; 
 import Button from '@/components/ui/Button';
