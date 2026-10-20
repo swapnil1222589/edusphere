@@ -17,7 +17,7 @@ export default function FacultyAssignmentsPage() {
   const [marks, setMarks] = useState('');
   const [feedback, setFeedback] = useState('');
   const [showCreate, setShowCreate] = useState(false);
-  const [form, setForm] = useState({ title: '', description: '', subjectCode: 'CS301', maxMarks: '20', dueDate: '' });
+  const [form, setForm] = useState({ title: '', description: '', subjectCode: 'CS301', maxMarks: '20', dueDate: '' }); 
 
   const handleGrade = () => {
     if (!grading) return;
