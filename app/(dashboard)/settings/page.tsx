@@ -38,7 +38,7 @@ export default function SettingsPage() {
       <div className="flex flex-col md:flex-row gap-6">
         {/* Sidebar nav */}
         <div className="md:w-56 flex-shrink-0">
-          <Card padding="sm">
+          <Card padding="sm"> 
             {sections.map(s => {
               const Icon = s.icon;
               return (
