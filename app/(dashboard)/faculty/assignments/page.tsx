@@ -6,7 +6,7 @@ import Badge from '@/components/ui/Badge';
 import Button from '@/components/ui/Button';
 import Modal from '@/components/ui/Modal';
 import { mockAssignments, mockStudents } from '@/data/mock';
-import { Assignment } from '@/types';
+import { Assignment } from '@/types'; 
 import { formatDate } from '@/lib/utils';
 import { ClipboardList, Plus, Star, Save } from 'lucide-react';
 import toast from 'react-hot-toast';
