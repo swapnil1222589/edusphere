@@ -11,6 +11,7 @@ import toast from 'react-hot-toast';
 
 type Section = 'profile' | 'password' | 'notifications' | 'privacy' | 'appearance';
 
+
 const sections: { id: Section; label: string; icon: React.ElementType }[] = [
   { id: 'profile', label: 'Profile', icon: User },
   { id: 'password', label: 'Password', icon: Lock },
