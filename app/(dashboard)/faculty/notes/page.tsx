@@ -14,7 +14,7 @@ import toast from 'react-hot-toast';
 export default function FacultyNotesPage() {
   const [notes, setNotes] = useState(mockNotes);
   const [showCreate, setShowCreate] = useState(false);
-  const [form, setForm] = useState({ title: '', description: '', subjectCode: 'CS301', tags: '' });
+  const [form, setForm] = useState({ title: '', description: '', subjectCode: 'CS301', tags: '' }); 
 
   const handleCreate = () => {
     if (!form.title) { toast.error('Title is required'); return; }
