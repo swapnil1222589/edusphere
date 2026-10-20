@@ -46,7 +46,7 @@ export default function SettingsPage() {
                   className={`w-full flex items-center gap-2.5 px-3 py-2.5 rounded-xl text-sm font-medium transition-all cursor-pointer ${section === s.id ? 'bg-indigo-600/20 text-indigo-400 border border-indigo-500/25' : 'text-[var(--text-secondary)] hover:bg-white/6 hover:text-[var(--text-primary)]'}`}>
                   <Icon size={16} />
                   {s.label}
-                </button>
+                </button> 
               );
             })}
           </Card>
