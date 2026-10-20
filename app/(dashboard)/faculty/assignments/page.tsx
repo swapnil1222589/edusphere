@@ -29,7 +29,7 @@ export default function FacultyAssignmentsPage() {
   };
 
   const handleCreate = () => {
-    if (!form.title || !form.dueDate) { toast.error('Please fill required fields'); return; }
+    if (!form.title ||  !form.dueDate) { toast.error('Please fill required fields'); return; }
     const newA: Assignment = {
       id: Date.now().toString(), title: form.title, description: form.description,
       subjectId: '1', subjectName: 'Data Structures', subjectCode: form.subjectCode,
