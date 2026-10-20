@@ -25,7 +25,7 @@ export default function FacultyAssignmentsPage() {
     toast.success('Marks saved!');
     setGrading(null);
     setMarks('');
-    setFeedback('');
+    setFeedback(''); 
   };
 
   const handleCreate = () => {
