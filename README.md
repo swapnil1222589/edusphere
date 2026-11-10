@@ -4,7 +4,7 @@
 
 EduSphere is a production-quality, fully responsive web application that serves as an all-in-one digital operating system for colleges. Built with Next.js 14, TypeScript, Tailwind CSS, Framer Motion, and Recharts.      
 
-## ✨ Features
+## ✨ Features 
 
 ### Student Portal
 - 📊 **Dashboards** – Attendance overview, upcoming classes, assignment deadlines, placement updates
