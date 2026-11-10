@@ -49,7 +49,7 @@ EduSphere is a production-quality, fully responsive web application that serves 
 ### Installation
 
 ```bash
-# Clone or navigate to project directory
+# Clone or navigate to project directory 
 cd edusphere
 
 # Install dependencies
