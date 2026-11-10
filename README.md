@@ -40,7 +40,7 @@ EduSphere is a production-quality, fully responsive web application that serves 
 - 🌙 **Dark/Light Mode** – Persistent theme switching 
 - 📱 **Fully Responsive** – Works beautifully on all screen sizes    
 
-## 🚀 Quick Start
+## 🚀 Quick Start 
 
 ### Prerequisites
 - Node.js 18+
