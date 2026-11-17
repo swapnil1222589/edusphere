@@ -86,7 +86,7 @@ edusphere/
 │   │   ├── faculty/     # 5 faculty modules
 │   │   └── admin/       # 7 admin modules
 │   ├── globals.css      # Design system, themes, animations
-│   ├── layout.tsx       # Root layout with providers
+│   ├── layout.tsx       # Root layout with providers 
 │   └── page.tsx         # Landing page
 ├── components/
 │   ├── ui/              # Button, Card, Badge, Modal, Skeleton, etc.
