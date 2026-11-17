@@ -7,7 +7,7 @@ EduSphere is a production-quality, fully responsive web application that serves 
 ## ✨ Features 
 
 ### Student Portal
-- 📊 **Dashboards** – Attendance overview, upcoming classes, assignment deadlines, placement updates
+- 📊 **Dashboards** – Attendance overview, upcoming classes, assignment deadlines, placement updates 
 - ✅ **Attendance** – Subject-wise tracking, monthly calendar, trend charts, low-attendance alerts
 - 📅 **Timetable** – Weekly & daily view with color-coded subjects, room & faculty details
 - 📝 **Assignments** – Submit, track deadlines, view grades & feedback            
