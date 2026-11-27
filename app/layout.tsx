@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   keywords: ['college management', 'student portal', 'attendance', 'placement', 'edtech'],
   authors: [{ name: 'EduSphere Team' }],      
   openGraph: {
-    title: 'EduSphere – Smart College Management Platform',
+    title: 'EduSphere – Smart College Management Platform', 
     description: 'The modern way to manage college life.',
     type: 'website',
   },
