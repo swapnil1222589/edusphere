@@ -36,7 +36,7 @@ const MOCK_USERS: Record<UserRole, User> = {
     joinedAt: '2013-06-01',
     avatar: '',
   },
-  admin: {
+  admin: { 
     id: 'adm-001',
     name: 'Prof. Ramesh Babu',
     email: 'admin@edusphere.edu',
