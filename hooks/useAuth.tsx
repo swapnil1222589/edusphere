@@ -25,7 +25,7 @@ const MOCK_USERS: Record<UserRole, User> = {
     joinedAt: '2021-07-15',
     avatar: '',
   },
-  faculty: {
+  faculty: { 
     id: 'fac-001',
     name: 'Dr. Anjali Sharma',
     email: 'faculty@edusphere.edu',
