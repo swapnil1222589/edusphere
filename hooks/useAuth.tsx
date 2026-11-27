@@ -41,7 +41,7 @@ const MOCK_USERS: Record<UserRole, User> = {
     name: 'Prof. Ramesh Babu',
     email: 'admin@edusphere.edu',
     role: 'admin',
-    department: 'Administration',
+    department: 'Administration', 
     employeeId: 'ADM001',
     phone: '+91 98765 43230',
     joinedAt: '2010-01-01',
