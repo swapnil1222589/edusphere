@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { AuthProvider } from '@/hooks/useAuth'; 
 import ToastProvider from '@/components/ui/ToastProvider'; 
-import ThemeInit from '@/components/ui/ThemeInit';  
+import ThemeInit from '@/components/ui/ThemeInit';   
 
 export const metadata: Metadata = {
   title: 'EduSphere – Smart College Management Platform', 
