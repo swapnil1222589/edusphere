@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Bell, Sun, Moon, Menu, Search, ChevronDown } from 'lucide-react';
 import { useAuth } from '@/hooks/useAuth';
-import Avatar from '@/components/ui/Avatar'; 
+import Avatar from '@/components/ui/Avatar';  
 import Badge from '@/components/ui/Badge'; 
 import { mockNotifications } from '@/data/mock';
 
