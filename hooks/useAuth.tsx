@@ -29,7 +29,7 @@ const MOCK_USERS: Record<UserRole, User> = {
     id: 'fac-001',
     name: 'Dr. Anjali Sharma',
     email: 'faculty@edusphere.edu',
-    role: 'faculty',
+    role: 'faculty', 
     department: 'Computer Science & Engineering',
     employeeId: 'FAC001',
     phone: '+91 98765 43220',
