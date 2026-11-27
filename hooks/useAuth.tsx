@@ -46,7 +46,7 @@ const MOCK_USERS: Record<UserRole, User> = {
     phone: '+91 98765 43230',
     joinedAt: '2010-01-01',
     avatar: '',
-  },
+  }, 
 };
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
