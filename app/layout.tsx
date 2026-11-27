@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'EduSphere Team' }],      
   openGraph: {
     title: 'EduSphere – Smart College Management Platform', 
-    description: 'The modern way to manage college life.',
+    description: 'The modern way to manage college life.', 
     type: 'website',
   },
 };
