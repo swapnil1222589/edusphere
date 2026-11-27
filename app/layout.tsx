@@ -3,7 +3,7 @@ import './globals.css';
 import { AuthProvider } from '@/hooks/useAuth'; 
 import ToastProvider from '@/components/ui/ToastProvider'; 
 import ThemeInit from '@/components/ui/ThemeInit';   
-
+ 
 export const metadata: Metadata = {
   title: 'EduSphere – Smart College Management Platform', 
   description: 'EduSphere is an all-in-one digital operating system for colleges. Manage academics, attendance, placements, and campus life from a single platform.',
