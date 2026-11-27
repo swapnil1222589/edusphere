@@ -12,7 +12,7 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | null>(null);
 
 const MOCK_USERS: Record<UserRole, User> = {
-  student: {
+  student: { 
     id: 'stu-001',
     name: 'Aarav Sharma',
     email: 'student@edusphere.edu',
