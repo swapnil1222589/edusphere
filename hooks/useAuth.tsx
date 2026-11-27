@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState, useEffect, useCallback } fr
 import { User, UserRole } from '@/types';  
  
 interface AuthContextType {  
-  user: User | null; 
+  user: User | null;  
   login: (email: string, password: string, role: UserRole) => Promise<void>;
   logout: () => void;
   isLoading: boolean; 
