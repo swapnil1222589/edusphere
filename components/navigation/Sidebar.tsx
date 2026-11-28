@@ -11,7 +11,7 @@ import {
   GraduationCap, BarChart3, Building2, Clock, Award, FileText, Layers
 } from 'lucide-react';
 
-const studentNav = [
+const studentNav =  [
   { label: 'Dashboard', href: '/student', icon: LayoutDashboard },
   { label: 'Attendance', href: '/student/attendance', icon: CalendarCheck },
   { label: 'Timetable', href: '/student/timetable', icon: Clock },
