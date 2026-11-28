@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '@/hooks/useAuth';
 import { cn } from '@/lib/utils';
-import {
+import { 
   LayoutDashboard, CalendarCheck, Calendar, ClipboardList, BookOpen, Ticket,
   Briefcase, Search, ShoppingBag, Users, Bell, Settings, LogOut, ChevronLeft,
   GraduationCap, BarChart3, Building2, Clock, Award, FileText, Layers
