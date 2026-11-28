@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 interface BadgeProps {
   children: React.ReactNode;
   variant?: 'default' | 'success' | 'warning' | 'danger' | 'info' | 'purple' | 'indigo';
-  size?: 'sm' | 'md';
+  size?: 'sm' | 'md'; 
   dot?: boolean;
   className?: string;
 }
