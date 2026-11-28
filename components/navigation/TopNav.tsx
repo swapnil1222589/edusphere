@@ -31,7 +31,7 @@ export default function TopNav({ onMenuClick }: TopNavProps) {
 
       {/* Search */}
       <div className="flex-1 max-w-md hidden sm:flex items-center gap-2 glass px-3 py-2 rounded-xl">
-        <Search size={15} className="text-[var(--text-muted)] flex-shrink-0" />
+        <Search size={15} className="text-[var(--text-muted)] flex-shrink-0" /> 
         <input
           type="text"
           placeholder="Search anything..."
