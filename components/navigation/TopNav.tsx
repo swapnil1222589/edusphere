@@ -6,7 +6,7 @@ import Avatar from '@/components/ui/Avatar';
 import Badge from '@/components/ui/Badge';  
 import { mockNotifications } from '@/data/mock';
 
-interface TopNavProps {
+interface TopNavProps { 
   onMenuClick: () => void;
 }
 
