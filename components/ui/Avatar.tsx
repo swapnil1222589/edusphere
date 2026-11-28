@@ -1,7 +1,7 @@
 import React from 'react';
 import { cn } from '@/lib/utils';
 
-interface AvatarProps {
+interface AvatarProps { 
   name: string;
   src?: string;
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
