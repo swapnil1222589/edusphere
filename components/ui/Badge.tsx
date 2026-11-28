@@ -26,7 +26,7 @@ const dotColors: Record<string, string> = {
   danger: 'bg-red-400',
   info: 'bg-cyan-400',
   purple: 'bg-purple-400',
-  indigo: 'bg-indigo-400',
+  indigo: 'bg-indigo-400', 
 };
 
 export default function Badge({ children, variant = 'default', size = 'md', dot, className }: BadgeProps) {
