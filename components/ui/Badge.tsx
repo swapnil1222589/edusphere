@@ -21,7 +21,7 @@ const variants = {
 
 const dotColors: Record<string, string> = {
   default: 'bg-[var(--text-muted)]',
-  success: 'bg-emerald-400',
+  success: 'bg-emerald-400', 
   warning: 'bg-amber-400',
   danger: 'bg-red-400',
   info: 'bg-cyan-400',
