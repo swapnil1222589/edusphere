@@ -10,7 +10,7 @@ interface TopNavProps {
   onMenuClick: () => void; 
 }
 
-export default function TopNav({ onMenuClick }: TopNavProps) {
+export default function TopNav({ onMenuClick }: TopNavProps) { 
   const { user } = useAuth();
   const [isDark, setIsDark] = useState(true);
   const [showNotifs, setShowNotifs] = useState(false);
