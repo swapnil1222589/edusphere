@@ -23,7 +23,7 @@ const studentNav =  [
   { label: 'Marketplace', href: '/student/marketplace', icon: ShoppingBag },
   { label: 'Clubs', href: '/student/clubs', icon: Users },
 ];
-
+ 
 const facultyNav = [
   { label: 'Dashboard', href: '/faculty', icon: LayoutDashboard },
   { label: 'Attendance', href: '/faculty/attendance', icon: CalendarCheck },
