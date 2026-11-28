@@ -7,7 +7,7 @@ import Badge from '@/components/ui/Badge';
 import { mockNotifications } from '@/data/mock';
 
 interface TopNavProps { 
-  onMenuClick: () => void;
+  onMenuClick: () => void; 
 }
 
 export default function TopNav({ onMenuClick }: TopNavProps) {
