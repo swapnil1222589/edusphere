@@ -49,7 +49,7 @@ const bottomNav = [
 
 interface SidebarProps {
   collapsed: boolean;
-  onToggle: () => void;
+  onToggle: () => void; 
   mobileOpen: boolean;
   onMobileClose: () => void;
 }
