@@ -19,7 +19,7 @@ const COLORS = [
   'from-amber-500 to-orange-600', 'from-rose-500 to-pink-600', 'from-violet-500 to-indigo-600',
 ];
 
-function getColor(name: string) {
+function getColor(name: string) { 
   return COLORS[name.charCodeAt(0) % COLORS.length];
 }
 
