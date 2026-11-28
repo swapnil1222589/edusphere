@@ -32,7 +32,7 @@ const facultyNav = [
   { label: 'Analytics', href: '/faculty/analytics', icon: BarChart3 },
 ];
 
-const adminNav = [
+const adminNav = [ 
   { label: 'Dashboard', href: '/admin', icon: LayoutDashboard },
   { label: 'Students', href: '/admin/students', icon: GraduationCap },
   { label: 'Faculty', href: '/admin/faculty', icon: Users },
