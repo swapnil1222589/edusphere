@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
 import { Bell, Sun, Moon, Menu, Search, ChevronDown } from 'lucide-react';
 import { useAuth } from '@/hooks/useAuth';
 import Avatar from '@/components/ui/Avatar';  
